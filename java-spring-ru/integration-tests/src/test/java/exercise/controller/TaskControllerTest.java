@@ -94,7 +94,6 @@ class ApplicationTest {
                 .andExpect(status().isCreated())
                 .andReturn();
     }
-
     
     @Test
     public void testDelete() throws Exception {
