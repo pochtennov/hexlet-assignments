@@ -95,6 +95,7 @@ class ApplicationTest {
                 .andReturn();
     }
 
+    
     @Test
     public void testDelete() throws Exception {
         var task = generateTask();
