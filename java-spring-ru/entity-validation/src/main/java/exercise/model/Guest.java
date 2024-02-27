@@ -44,7 +44,7 @@ public class Guest {
     @Pattern(regexp = "\\d{4}", message = "Club card number should contain 4 digits")
     private String clubCard;
 
-    @FutureOrPresent
+    @Future
     private LocalDate cardValidUntil;
 
     @CreatedDate
